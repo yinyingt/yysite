@@ -4,7 +4,6 @@ url:
 # Variable site.baseurl is widely used for relative path naming in the posts
 baseurl: 
 uberurl: http://www.yingyingtang.me
-wikiurl: http://doc.lijun.li
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
 #permalink: /blog/:year-:month-:day-:title.html
@@ -18,20 +17,20 @@ theme2:
 
   # Profile links on the left sidebar, leave blank to ignore
   social:
-    github: lijunhw
-    twitter: lijunhw
+    github: yingyingt
+    linkedin: 
     rss: false
 
   # "Hi, I'm _______"
-  name: Lijun
+  name: Yingying
   email: 
   tagline: 
 
   # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-45440216-1
+  google_analytics_key: 
 
   # disqus short name
-  disqus_short_name: lijun
+  disqus_short_name:
 
   # Toggle "Postings are my own" disclaimer in footer
   show_disclaimer: false
