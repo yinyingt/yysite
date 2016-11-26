@@ -1,0 +1,37 @@
+highlighter: rouge
+# Variable site.url is only used in _layout/default.html here
+url: http://doc.lijun.li
+# Variable site.baseurl is widely used for relative path naming in the posts
+baseurl: 
+uberurl: http://www.lijun.li
+wikiurl: http://doc.lijun.li
+lsi: false
+exclude: [LICENSE, CNAME, README.md, .gitignore]
+#permalink: /blog/:year-:month-:day-:title.html
+markdown: kramdown
+#  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "tables", "with_toc_data"]
+# redcarpet configuration in Jekyll can be found here http://jekyllrb.com/docs/configuration/#redcarpet
+
+theme2:
+  # Color for top bar, links, etc
+  highlight_color: '#3498db'
+
+  # Profile links on the left sidebar, leave blank to ignore
+  social:
+    github: lijunhw
+    twitter: lijunhw
+    rss: false
+
+  # "Hi, I'm _______"
+  name: Lijun
+  email: 
+  tagline: 
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: UA-45440216-1
+
+  # disqus short name
+  disqus_short_name: lijun
+
+  # Toggle "Postings are my own" disclaimer in footer
+  show_disclaimer: false

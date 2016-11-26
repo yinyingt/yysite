@@ -1,0 +1,19 @@
+\documentclass{standalone}
+\usepackage[siunitx]{circuitikz}
+\usepackage{tikz}
+
+
+\begin{document}
+\begin{circuitikz} \draw
+(0,0) to [american voltage source] (0,2) to [R, l=$R$] (2,2) to [L, l=$L$] (4,2) to [C, l=$C$](4,0) -- (0,0)
+(4,2) to [short, -o](5,2) node [right]{$V_{out}$}
+(0,0) node [ground]{} 
+;
+\end{circuitikz}
+
+\end{document}
+
+% Commands of converting it to png 
+%latex RC_circuit.tex
+%dvips RC_circuit.dvi
+%inkscape -z --export-png=simple_RC_circuit.png -w 320 -h 320 simple_RC_circuit.ps
