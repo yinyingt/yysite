@@ -1,9 +1,9 @@
 highlighter: rouge
 # Variable site.url is only used in _layout/default.html here
-url: http://doc.lijun.li
+url: 
 # Variable site.baseurl is widely used for relative path naming in the posts
 baseurl: 
-uberurl: http://www.lijun.li
+uberurl: http://www.yingyingtang.me
 wikiurl: http://doc.lijun.li
 lsi: false
 exclude: [LICENSE, CNAME, README.md, .gitignore]
